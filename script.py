@@ -90,9 +90,9 @@ def file_size():
         csv.write("{},{},{}\n".format(fn, fs, ft))
 
                     
-key = 'C6DN694NX0iL1mKjRj6reDCKTXtFMtqP'
+key = 'C6DN694NX0iL1mKjRj6reDCKTXtFMtqP'    #Get your own API key at https://tinypng.com/developers
 img_downloader("img_list.txt", "original_images")
-img_compressor("original_images", "compressed_images",key) 
+img_compressor("original_images", "compressed_images", key) 
         
         
         
